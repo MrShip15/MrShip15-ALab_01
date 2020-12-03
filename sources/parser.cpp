@@ -1,4 +1,4 @@
-// Copyright 2020 ALexei Kushpelev leha.kushpelev@mail.ru
+// Copyright 2020 MrShip15 mr.shi15@gmail.ru
 #include "parser.hpp"
 
 Parser::Parser(const std::string& jsonPath) {

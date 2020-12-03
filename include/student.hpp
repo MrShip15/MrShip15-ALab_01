@@ -1,4 +1,4 @@
-// Copyright 2020 ALexei Kushpelev leha.kushpelev@mail.ru
+// Copyright 2020 MrShip15 mr.shi15@gmail.ru
 #ifndef INCLUDE_STUDENT_HPP_
 #define INCLUDE_STUDENT_HPP_
 

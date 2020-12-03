@@ -1,4 +1,4 @@
-// Copyright 2020 ALexei Kushpelev leha.kushpelev@mail.ru
+// Copyright 2020 MrShip15 mr.shi15@gmail.ru
 #include <gtest/gtest.h>
 
 #include <parser.hpp>
@@ -23,7 +23,7 @@ TEST(Parser, Empty_file) {
   str << pars;
   std::string str_example(R"(| name             | group  | avg  | debt         |
 |------------------|--------|------|--------------|
-| Kushpelev Alexei | IU8-33 | null | C++          |
+| Ivanov Ivan      | IU8-31 | null | C++          |
 |------------------|--------|------|--------------|
 )");
   std::vector<size_t> column_width{19, 9, 7, 15};
@@ -106,8 +106,8 @@ TEST(Student, correct_out_avg) {
 }
 TEST(Student, correct_out_debt) {
   ASSERT_THROW(Student st(json::parse(R"({
-      "name": "Kuspelev Alexei",
-      "group": 33,
+      "name": "Ivanov Ivan",
+      "group": 31,
       "avg": null,
       "debt": 0
 })")),
